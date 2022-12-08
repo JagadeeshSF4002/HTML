@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form method="post" action="https://syncfusion.atlassian.net/browse/FT-3239"  target="_blank">
+            <h1> Registration Form </h1>
+
+            <label>First Name</label>
+            <input type="text" placeholder="Enter your First Name" size="25"><br><br>
+
+            <label>Last Name</label>
+            <input type="text"  placeholder="Enter your Last Name" size="25"><br><br>
+
+            <label>Gender</label>
+            <input type="radio" name="Gender" value="Male">Male
+            <input type="radio" name="Gender" value="Female">Female
+            <br><br>
+
+            <label>Email</label>
+            <input type="email" name="email"  placeholder="Enter your Email">
+            <br><br>
+            
+            <label>Qualification</label>
+            <select>
+                <option value="Default" selected>Select the option</option>
+                <option value="BE" >BE</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="B.Sc">B.Sc</option>
+                <option value="M.Sc">M.Sc</option>
+            </select><br><br>
+            
+            <label>Department</label>
+            <input type="checkbox" name="CSE" value="CSE">CSE
+            <input type="checkbox" name="ECE" value="ECE">ECE
+            <input type="checkbox" name="EEE" value="EEE">EEE
+            <input type="checkbox" name="MECH" value="MECH">MECH<br /><br>
+            
+            <label>Address</label><br>
+            <textarea rows="8" cols="44"></textarea>
+            <br><br>
+
+            <label>UserName</label>
+            <input type="text" name="Username" placeholder="Enter your UserName">
+            <br><br>
+
+            <label>Password</label>
+            <input type="password" name="password" minlength="8" placeholder="Enter your Passcode">
+            <br><br>
+
+            <input type="file" name="fileUpload" accept="image/*">
+            <br><br>
+
+            <!-- <input type="image" src="Form.png"> -->
+            <input type="submit">
+            <!-- <button type="submit" value="Submit">Submit</button> -->
+            <input type="reset">
+            <input type="button" name="Cancel" value="Cancel">
+
+    </form>
+    <!-- To back to the  sites -->
+    <a href="../index.html">Click to back</a>
+
+
+
+</body>
+</html>
